@@ -13,7 +13,9 @@ public:
 		assert(m >= 2);
 		// put your code here
 		std::vector<int>remains = { 0,1 };
-		
+		for (size_t i = 2; i < m; ++i) {
+
+		}
 
 
 		return n % m;
