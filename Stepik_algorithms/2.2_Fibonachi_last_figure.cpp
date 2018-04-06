@@ -13,9 +13,7 @@ class Fibonacci {
 public:
 	static int get_last_digit(int n) {
 		assert(n >= 1);
-		int f_previous(0);
-		int f_current(1);
-		int result(0);
+		int f_previous(0), f_current(1), result(0);
 		// put your code here
 		for (size_t i = 1; i < n; ++i) {
 			result = (f_previous + f_current) % 10;
