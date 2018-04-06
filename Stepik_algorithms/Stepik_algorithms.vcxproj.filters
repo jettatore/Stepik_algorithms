@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2.2_Fibonachi_last_figure.cpp">
+    <ClCompile Include="2.2_Fibonachi_remain.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
