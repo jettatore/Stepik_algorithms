@@ -27,5 +27,6 @@ int main(void) {
 	int m;
 	std::cin >> n >> m;
 	std::cout << Fibonacci::get_remainder(n, m) << std::endl;
+	//
 	return 0;
 }
